@@ -1,0 +1,11 @@
+Lab 3 Accomplishments:
+The algorithims for both insertion sort and merge sort function as required in the lab documents where both will sort a unsorted array of numbers. An error encountered in the lab segmentation error when values of more than 9 where inputted in the array that needed to be sorted. Another error found was when running the mergeSort command in command prompt. It was discovered that in order to run the execudible, mergeSort needed to be called, then the array needed to be inputted then after pressing the enter key, ctrl+d needed to be pressed to indicate the end of the file in order for the processes to sort the arrays to be called. Other than this, the lab was accomplished successfully.
+
+1. Insertion Sort
+Best Case: The best case for insertion sort will have a time complexity of O(n), will perform n comparisions depending on the length of the inputted array, but will perform 0 swaps or copies.
+Average Case: The average case for insertion sort will have a time complexity of O(n^2), will perform (n(n-1)/2) comparisons and swaps and (n-1) copys.
+Worst Case: The worst case for insertion will contain the same functions with respect to n of the average case in insertion sort.
+
+2. Merge Sort
+Best Case: The best case for merge sort will have a timing complexity of O(nlogn), will perform (nlogn - n + 1) comparisons, as per the swaps, it would be the length of the input array as the algorithim contains a temp array which is populated by the elements after the merge sort is completed and the copies would occurr every time a comparison occurs.
+The above is the same for both the average case and worst case as no matter what it will go through the entire input array. 

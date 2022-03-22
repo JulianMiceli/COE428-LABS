@@ -1,0 +1,8 @@
+Julian Miceli - 500984182
+
+Sources used to do research on the lab:
+https://www.programiz.com/dsa/heap-sort
+https://www.programiz.com/dsa/heap-data-structure
+
+This lab was very weird as I spent alot of my time trying to fix warning messages when making the file but ended up figuring out that the code executed properly even with these warnings. mySwap throws warning messages but works as intended. The spacing when printing the heap took a while to figure out but it functions as intended. I had a print stack method in the intStack class but it would never print so I resulted to printing the elements before they where pushed onto the stack which printed them in the correct descending order. Other than this, everything else funtions as intended. The way to run my program is to call "heap" enter the data, than press ctr-d twice to get the output from the data inputted
+

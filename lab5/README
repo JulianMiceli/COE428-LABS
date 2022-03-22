@@ -1,0 +1,51 @@
+Sources used to research on the lab:
+//Source used to gather knowledge for stringHashTable
+https://www.journaldev.com/35238/hash-table-in-c-plus-plus
+
+//Source used to gather knowledge on how to tackle part1Main
+https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/
+https://www.faceprep.in/c/balanced-parentheses-using-stack/
+
+Summarize your lab:
+
+  Part 1:
+     Works  Yes or No
+	yes
+     
+  Part 2:
+     Works  Yes or No
+	yes
+     
+  Part 3:
+     Works  Yes or No
+	No as I could not figure out how to return the line of string using getLine() or fgets().
+     
+***ANSWERS TO QUESTIONS***
+ Question 1:
+     Which hash table collision resolution method did you use
+     (eg. chaining or open addressing)? Explain your choice
+     briefly (less than 25 words).
+ YOUR ANSWER:
+ 
+The method of choice was chaining to avoid collisions if two keys were hashed at the same index.
+
+ Question 2:
+       Which hash function (division or multiplication) did you use?
+       How did you convert a string into a number?
+ YOUR ANSWER:
+
+The hash function used was division and I converted the string into a number by using strlen to get the length of the string, then by using a for loop the sum based on the length was calculated.
+ 
+ Question 3:
+       Another legal XML tag not used in this lab is the
+       stand-alone tag.  This kind of tag
+       combines both a start-tag and end-tag in one.
+       It is identified with a '/' (slash) preceding the
+       final >.  (For example, the <foo/>
+       is a stand-alone tag that is self balancing.
+       
+       Describe briefly how
+       you would modify Part 3 to allow this kind of tag.
+
+ YOUR ANSWER:
+  After you check if ch isaplha, you can have a if conditional to check whether the Next_char is of slash ('/') or '>'. If it is slash you would then need to push it onto the stack and then check to see if the tag is completed, meaning to check for a '>' that ends the tag.

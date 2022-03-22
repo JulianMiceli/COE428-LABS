@@ -1,0 +1,5 @@
+README Question Answer: 
+In order to write a mySort() method that implements the paramters passed into betterSort(int data[], first, last), you would have to implement a merge sorter. You can use the first and last variables to act as place holders of the split arrays, then use the necassary for loops to rearrange the two split arrays while merging at the end of each sort to accomplish a sorted array.
+
+Comments Regarding Lab:
+The end results of the lab were achieved successfully. For the mySort() method an insertion sort type of strategy was used to achieve the sorted array output. Upcome completing sortMain2 a problem was encountered where the output of the sorted array was always 0 when data was inputted in the command line. This was solved by putting the print for loop into the if statements and altering the counter value from 0 to 1 for the print for loop that prints the sorted array for the data inputted in the command line. Other than this, everything was succesful.
